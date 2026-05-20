@@ -2,10 +2,11 @@
 import { useEffect, useState } from 'react';
 import axios from 'axios';
 import { useRouter } from 'next/navigation';
-import Link from 'next/link';  
+import Link from 'next/link';
 
 export default function JobDetail({ params }) {
-  const { id } = params;
+  
+  const { id } = React.use(params);
   const [job, setJob] = useState(null);
   const [loading, setLoading] = useState(true);
   const router = useRouter();
