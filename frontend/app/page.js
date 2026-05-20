@@ -48,16 +48,20 @@ export default function Home() {
           <div className="flex flex-col md:flex-row gap-4 justify-between items-center">
             <div className="flex flex-col md:flex-row gap-4 w-full md:w-auto">
               {/* Category Filter - SOLID COLORS */}
-              <select 
+             <select 
   value={category}
   onChange={(e) => setCategory(e.target.value)} 
-  className="bg-gray-50 border-2 border-gray-300 rounded-lg px-4 py-2 text-gray-700 font-medium"
+  className="bg-gray-50 border-2 border-gray-300 rounded-lg px-4 py-2 text-gray-700 font-medium focus:ring-2 focus:ring-blue-500"
 >
   <option value="">📂 All Categories</option>
-  <option value="Plumbing">🔧 Plumbing</option>
-  <option value="Electrical">⚡ Electrical</option>
-  <option value="Painting">🎨 Painting</option>
-  <option value="Joinery">🔨 Joinery</option>
+  <option value="Frontend Development">💻 Frontend Development</option>
+  <option value="Backend Development">⚙️ Backend Development</option>
+  <option value="Full Stack Development">🚀 Full Stack Development</option>
+  <option value="UI/UX Design">🎨 UI/UX Design</option>
+  <option value="QA Testing">🐛 QA Testing</option>
+  <option value="DevOps">☁️ DevOps</option>
+  <option value="Data Science">📊 Data Science</option>
+  <option value="Mobile Development">📱 Mobile Development</option>
 </select>
               
               {/* Status Filter - SOLID COLORS */}

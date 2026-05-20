@@ -5,7 +5,16 @@ const jobRequestSchema = new mongoose.Schema({
   description: { type: String, required: true },
   category: { 
     type: String, 
-    enum: ['Plumbing', 'Electrical', 'Painting', 'Joinery'], 
+    enum: [
+      'Frontend Development',
+      'Backend Development',
+      'Full Stack Development',
+      'UI/UX Design',
+      'QA Testing',
+      'DevOps',
+      'Data Science',
+      'Mobile Development'
+    ], 
     required: true 
   },
   location: { type: String, required: true },
