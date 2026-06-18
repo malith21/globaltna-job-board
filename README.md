@@ -1,3 +1,9 @@
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1a2e,100:16213e&height=200&section=header&text=GlobalTNA%20Job%20Board&fontSize=45&fontColor=ffffff&fontAlignY=38&desc=Next.js%20%7C%20Express.js%20%7C%20MongoDB%20%7C%20Full-Stack&descAlignY=58&descSize=18&animation=fadeIn"/>
+
+</div>
+
 # GlobalTNA Job Board
 
 > A full-stack service request board built for the **GlobalTNA** internship assignment. Homeowners can post service requests, and tradespeople can browse, update status, and manage requests.
@@ -244,3 +250,9 @@ Run `npm install` in both the `backend` and `frontend` directories.
 ---
 
 *Developed for educational purposes as part of the GlobalTNA internship application process.*
+
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:16213e,100:1a1a2e&height=100&section=footer"/>
+
+</div>
